@@ -20,3 +20,6 @@ logFiles.onObjectCreated("archiveLogs", async (e) => {
         }).promise();
     }
 });
+
+export const logFilesBucket = logFiles.bucket;
+export const logArchiveBucket = logArchive.bucket;
