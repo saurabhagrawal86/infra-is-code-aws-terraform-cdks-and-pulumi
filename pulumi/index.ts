@@ -4,7 +4,7 @@ import * as pulumi from "@pulumi/pulumi";
 const logFiles = new aws.s3.Bucket("logDumps");
 const logArchive = new aws.s3.Bucket("logArchives");
 
-logFiles.onObjectCreated("archiveLogs", async (e) => {
+logFiles.onObjectCreated("zipArchiveLogs", async (e) => {
     const admZip = require("adm-zip");
     const s3 = new aws.sdk.S3();
     for (const rec of e.Records || []) {
