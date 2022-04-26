@@ -7,7 +7,7 @@ Pulumi is an Infractructure as Code tool written in Go. To integrate to Provider
 - Go
 - C#
 
-## Install and Configure on AWS
+## Install Pulumi and Configure AWS Credentials
 1) Install Pulumi CLI: 
    - Linux: $ curl -fsSL https://get.pulumi.com | sh
    - macOS: $ brew install pulumi
