@@ -1,5 +1,5 @@
-## Description:
-Pulumi is an Infractructure as Code tool written in Go. To integrate to Providers such as AWS, Azure or GCP you can do it via the following programming languages:
+## What is Pulumi?
+Pulumi is an Infractructure as Code tool written in Go. To integrate to Providers such as AWS, Azure or GCP you can implement it using the following programming languages:
 
 - Typescript
 - Python
@@ -7,7 +7,7 @@ Pulumi is an Infractructure as Code tool written in Go. To integrate to Provider
 - Go
 - C#
 
-## Steps:
+## Install and Configure on AWS
 1) Install Pulumi CLI: 
    - Linux: $ curl -fsSL https://get.pulumi.com | sh
    - macOS: $ brew install pulumi
