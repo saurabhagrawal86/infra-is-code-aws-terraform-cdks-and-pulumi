@@ -4,8 +4,7 @@ Pulumi is an Infractructure as Code tool written in Go. To integrate to Provider
 - Typescript
 - Python
 - Javascript
-- Go, 
-- .Net 
+- Go
 - C#
 
 ## Steps:
