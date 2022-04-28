@@ -2,10 +2,10 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mycompany.app</groupId>
+    <groupId>za.co.saurabh.cdktf.example</groupId>
     <artifactId>terraform-cdk</artifactId>
     <name>terraform-cdk</name>
-    <version>0.1</version>
+    <version>1.0.0</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
