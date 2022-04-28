@@ -1,6 +1,5 @@
 package za.co.saurabh.cdktf.example.aws;
 
-import com.hashicorp.cdktf.App;
 import com.hashicorp.cdktf.TerraformOutput;
 import com.hashicorp.cdktf.TerraformStack;
 
@@ -19,7 +18,7 @@ public class MyAwsStack extends TerraformStack {
     public MyAwsStack(final Construct scope, final String id) {
         super(scope, id);
 
-        AwsProvider.Builder.create(this, "aws").region("eu-central-1").build();
+        AwsProvider.Builder.create(this, "aws").region("af-south-1").build();
 
         DataAwsRegion region = new DataAwsRegion(this, "region");
 
