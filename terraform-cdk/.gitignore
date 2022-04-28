@@ -12,3 +12,6 @@ cdktf.log
 target/
 src/main/java/imports/*
 src/main/resources/imports/*
+node_modules
+cdktf.out/*
+
