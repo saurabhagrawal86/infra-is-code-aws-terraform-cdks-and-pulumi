@@ -380,3 +380,8 @@ package-lock.json
 yarn.lock
 .cdk.staging
 cdk.out
+
+*.iml
+terraform-cdk/cdktf.out/*
+terraform-cdk/src/main/java/imports/*
+terraform-cdk/src/main/resources/imports/*
